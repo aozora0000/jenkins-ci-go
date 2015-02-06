@@ -21,8 +21,8 @@ RUN curl -L https://raw.github.com/grobins2/gobrew/master/tools/install.sh | sh 
     echo 'eval "$(gobrew init -)"' >> /home/worker/.bashrc
 
 RUN source /home/worker/.bashrc && \
-    gobrew install 1.4 && \
-    gobrew use 1.4
+    gobrew install 1.3 && \
+    gobrew use 1.3
 
 #################################
 # default behavior is to login by worker user
